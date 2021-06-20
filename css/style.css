@@ -1,0 +1,323 @@
+:root {
+
+    --yellow: #F0A83E;
+    --brown: #3C2313;
+    --gray: #8A8787;
+    --black:  #222222;
+}
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* header */
+header {
+    height: 50%;
+}
+header>div {
+
+    background-color: var(--black);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.img-container {
+
+    flex-grow: 1;
+    padding-left: 2em;
+    
+    
+}
+
+
+header nav {
+    background-color: var(--yellow);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+    font-size: 1.2em;
+    flex-wrap: wrap;
+ 
+}
+
+header a {
+    text-decoration: none; 
+    color: white;
+}
+
+header ul {
+    display: flex; 
+    flex-direction: row;
+    padding-right: 2em;
+   
+}
+header li {
+    padding-left: 1ch;
+}
+.promo {
+    padding-left: 1em;
+    flex-grow: 1;
+}
+
+.region-settings {
+    padding-right: 2ch;
+}
+
+/* main */
+
+banner {
+    background-image: url('../img/foto.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+ 
+
+}
+
+.ban-container {
+
+    margin: 0;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2em;
+   
+    
+ 
+    
+}
+
+.ban-message1 {
+    background-color: white;
+    font-size: 2em;
+    padding: 0.5em;
+    border-radius: 10px;
+    margin: 0;
+
+ 
+}
+
+.ban-message2 {
+    font-size: 1.3em; 
+}
+
+.ban-button {
+    background-color: var(--yellow);
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-cards-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-cards-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#main-pawprint-img {
+    padding-top: 2em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.price {
+    color: var(--yellow);
+    font-weight: bold;
+}
+
+.contact-form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form {
+
+    font-size: 1.5em;
+}
+
+.contact-form form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.contact-form>form>input {
+    background-color: var(--brown);
+    padding: 1em;
+    padding-right: 20em;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    margin: 0.5em;
+
+}
+
+#but-contact-form-container {
+    margin-top: 2em;
+}
+
+#but-reset {
+    background-color: var(--gray);
+    border-radius: 15px;
+    border-style: none;
+    padding: 1em 3em;
+    margin-right: 0.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 0.7em;
+
+
+    
+}
+
+#but-submit {
+    background-color: var(--yellow);
+    border-radius: 18px;
+    border-style: none;
+    padding: 1em 3em;
+    color: white;
+    font-weight: bold;
+    font-size: 0.7em;
+
+
+}
+
+#sec-subscribe {
+    background-color: var(--yellow);    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#sec-subscribe img{
+    padding-left: 1em;
+}
+
+#sec-subscribe p{
+    padding-left: 0.5em;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+#sec-subscribe form {
+    padding-right: 3em;
+}
+
+#sec-subscribe input{
+    background-color: white;
+    font-size: 0.8em;
+    color: black;
+    border-style: none;
+    border-radius: 20px;
+    padding: 1em;
+    padding-right: 12em;
+}
+
+
+#sec-subscribe button{
+    background-color: var(--brown);
+    font-size: 0.6em;
+    font-weight: bold;
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    padding: 1.5em;
+}
+
+footer {
+    background-color: var(--brown);
+    color: white;
+}
+
+#contact-media-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#ft-icon-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 4em;
+}
+
+
+#ft-icon-container img{
+    margin-bottom: 2em;
+}
+
+#ft-detail-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#ft-logo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-right: 6em;
+
+}
+
+.contact-ch {
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.contact-value {
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-bottom: 0;
+    opacity: 0.7;
+    margin-top: 0;
+}
+
+.cont-reserved {
+    background-color: var(--black);
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 1px;
+}
